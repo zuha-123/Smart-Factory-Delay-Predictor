@@ -1,0 +1,126 @@
+{
+  "best_classifier": "XGBoost",
+  "best_regressor": "Gradient Boosting",
+  "classification_metrics": {
+    "Logistic Regression": {
+      "accuracy": 0.874,
+      "precision": 0.892,
+      "recall": 0.9306,
+      "f1_score": 0.9109,
+      "roc_auc": 0.9404,
+      "confusion_matrix": [
+        [
+          115,
+          39
+        ],
+        [
+          24,
+          322
+        ]
+      ]
+    },
+    "Decision Tree": {
+      "accuracy": 0.828,
+      "precision": 0.9062,
+      "recall": 0.8382,
+      "f1_score": 0.8709,
+      "roc_auc": 0.88,
+      "confusion_matrix": [
+        [
+          124,
+          30
+        ],
+        [
+          56,
+          290
+        ]
+      ]
+    },
+    "Random Forest": {
+      "accuracy": 0.884,
+      "precision": 0.883,
+      "recall": 0.9595,
+      "f1_score": 0.9197,
+      "roc_auc": 0.9602,
+      "confusion_matrix": [
+        [
+          110,
+          44
+        ],
+        [
+          14,
+          332
+        ]
+      ]
+    },
+    "XGBoost": {
+      "accuracy": 0.888,
+      "precision": 0.8962,
+      "recall": 0.948,
+      "f1_score": 0.9213,
+      "roc_auc": 0.9609,
+      "confusion_matrix": [
+        [
+          116,
+          38
+        ],
+        [
+          18,
+          328
+        ]
+      ]
+    }
+  },
+  "regression_metrics": {
+    "Linear Regression": {
+      "mae": 0.8913,
+      "rmse": 1.1766,
+      "r2_score": 0.5967
+    },
+    "Random Forest Regressor": {
+      "mae": 0.7866,
+      "rmse": 1.1153,
+      "r2_score": 0.6377
+    },
+    "Gradient Boosting": {
+      "mae": 0.8082,
+      "rmse": 1.0986,
+      "r2_score": 0.6485
+    },
+    "XGBoost Regressor": {
+      "mae": 0.8182,
+      "rmse": 1.1167,
+      "r2_score": 0.6368
+    }
+  },
+  "feature_importances": {
+    "order_quantity": 0.0203,
+    "planned_duration_days": 0.0251,
+    "order_priority_num": 0.0231,
+    "shift_type_num": 0.0159,
+    "product_family_num": 0.0186,
+    "machine_capacity_utilization": 0.084,
+    "machine_downtime_hours": 0.0966,
+    "maintenance_overdue_days": 0.1122,
+    "material_availability_pct": 0.3147,
+    "workforce_availability_pct": 0.1049,
+    "workforce_skill_index": 0.0342,
+    "active_workload_orders": 0.0841,
+    "supplier_delay_days": 0.0662
+  },
+  "feature_columns": [
+    "order_quantity",
+    "planned_duration_days",
+    "order_priority_num",
+    "shift_type_num",
+    "product_family_num",
+    "machine_capacity_utilization",
+    "machine_downtime_hours",
+    "maintenance_overdue_days",
+    "material_availability_pct",
+    "workforce_availability_pct",
+    "workforce_skill_index",
+    "active_workload_orders",
+    "supplier_delay_days"
+  ]
+}

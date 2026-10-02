@@ -1,0 +1,11 @@
+order_id,product_family,order_quantity,planned_duration_days,order_priority,shift_type,machine_capacity_utilization,machine_downtime_hours,maintenance_overdue_days,material_availability_pct,supplier_delay_days,workforce_availability_pct,workforce_skill_index,active_workload_orders
+ORD-BATCH-2001,Assembly_Alpha,850,4.5,High,Day,92.5,14.0,5,75.0,2.0,85.0,0.88,11
+ORD-BATCH-2002,Engine_Gamma,1200,6.0,Critical,Night,98.0,22.5,12,45.0,6.0,60.0,0.72,15
+ORD-BATCH-2003,Component_Beta,450,3.0,Medium,Day,72.0,0.5,0,95.0,0.0,92.0,0.95,4
+ORD-BATCH-2004,Hydraulic_Delta,600,5.0,Low,Rotating,81.0,2.0,1,88.0,0.5,80.0,0.82,7
+ORD-BATCH-2005,Precision_Gear,1500,7.5,High,Day,89.0,8.0,4,62.0,4.5,90.0,0.85,9
+ORD-BATCH-2006,Assembly_Alpha,300,2.5,Low,Day,65.0,0.0,0,98.0,0.0,96.0,0.92,3
+ORD-BATCH-2007,Engine_Gamma,950,5.5,Critical,Night,96.0,18.0,9,50.0,5.0,55.0,0.68,14
+ORD-BATCH-2008,Component_Beta,1100,6.0,Medium,Rotating,84.0,3.5,2,82.0,1.0,88.0,0.86,8
+ORD-BATCH-2009,Hydraulic_Delta,400,4.0,High,Day,91.0,11.0,6,78.0,2.5,75.0,0.78,10
+ORD-BATCH-2010,Precision_Gear,700,4.5,Low,Day,76.0,1.0,0,94.0,0.0,91.0,0.90,5
